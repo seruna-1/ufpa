@@ -1,35 +1,24 @@
 # Sistema educacional
 
+## Josivan Reis - Programação II - 2026
+
 Sistema educacional web.
 
-**Requisitos do Sistema:**
+**Requisitos:**
 
  - Plataforma com perfis (aluno, professor e admin), cadastro de usuários com dados (nome completo, e-mail, senha, endereço e data de nascimento).
-
  - Login e logout de usuários, recuperação de senha, gestão de perfil (CRUD), controle de permissão (aluno só vê o que for do curso dele).
-
  - Matrícula em curso = matrícula em todas as disciplinas do curso.
-
  - Cadastro de curso é feito por admin.
-
  - Cadastro de conteúdo na disciplina é feito pelo professor.
-
  - Professor só acessa as suas disciplinas nos cursos que ele ministra
-
  - Adicionar, editar e remover cursos (matérias vão junto, exclusão virtual por flag ativou ou não ativo, ou seja, ainda existe no banco de dados).
-
  - Correção automática (múltipla escolha e V ou F).
-
  - Admin pode listar todos os cursos.
-
  - Matrículas no curso: feita pelo administrador, o aluno pede permissão pro administrador, aluno consegue ver todos os cursos para escolher em qual se matricular.
-
  - Aluno pode participar de vários cursos.
-
  - Matérias iguais mas cursos diferentes são disciplinas diferentes.
-
  - Disciplina só pode ter um professor.
-
  - Conteúdo da disciplina e módulos feitos por professor, disciplina cadastrada por administração.
 
 **Módulos:**
@@ -47,7 +36,6 @@ Sistema educacional web.
  - Progresso do aluno: só o administrador vê (qual módulo ele está (pelo perfil do aluno), desempenho nos testes (podendo expandir por teste)), acesso por curso, não por aluno
 
  - Adm: Gerencia usuários, professor (listar todos os professores), acessar perfil de professores, sabendo cursos e disciplinas, cursos, professores naquele curso, alunos naquele curso, tudo
-
  - Acessibilidade, se se possível (exemplo: leitor de tela).
 
  - Aluno: realiza login, pede matricula em curso, assiste as aulas, faz atividade, acompanha progresso.

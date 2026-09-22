@@ -1,4 +1,6 @@
-# Mini shell
+# Mini shell.
+
+## Flávia Monteiro - Laboratório de Sistemas Operacionais - 2026
 
 Nesta atividade, cada aluno deverá finalizar e ampliar o projeto do Mini-Shell UNIX, iniciado em sala de aula. O trabalho é individual e deverá demonstrar tanto a implementação das funcionalidades solicitadas quanto a compreensão dos conceitos de Sistemas Operacionais envolvidos no funcionamento do shell.
 
@@ -223,3 +225,4 @@ Além do relatório em PDF, o aluno deverá entregar o código-fonte do mini-she
  - O que aconteceria se cd fosse executado apenas em um processo-filho?
 
  - Como o mini-shell decide se deve tratar um comando internamente ou criar um processo-filho?
+
