@@ -19,11 +19,53 @@ Após a clonagem, é importante trocar a branch principal de `beacon` para a bra
 
 Depois, o processo é repetitivo: uma tarefa surge na branch `beacon` do repositório central, o aluno atualiza a branch `beacon` do seu repositório clonado, lê a tarefa, implementa a solução na branch pessoal e depois mescla a branch `beacon` em cima da pessoal.
 
+## Diário
+
+
+
 ## Tarefas
 
 Cada diretório de tarefa fica com um arquivo `task.md` dentro para descrever o enunciado da tarefa e a contextualização (professor, data, disciplina). O motivo disso ficar no `task.md` é que o `readme.md` é específico para explicar cada implementação de cada aluno. Se a tarefa tiver arquivos auxiliares, eles podem ficar dentro de um diretório `task/`, e o `task.md` também pode ficar lá.
 
-Eventualmente, mais de uma tarefa com enunciados bem parecidos ou literalmente iguais podem (e vão) surgir. Se dois enunciados puderem ser unidos, então o ideal é uní-los. Se dois enunciados esperam a mesma solução, não tem razão para o mesmo aluno criar duas soluções diferentes mas tecnicamente iguais. Se os enunciados puderem ser satisfeitos por uma mesma solução ao mesmo tempo, então eles ficam registrados no mesmo diretório, cada um em um arquivo com prefixo `task-`. Exemplo: `task-fulano-2025.md`, `task-ciclano-2026.md`.
+Eventualmente, mais de uma tarefa com enunciados complementares, parecidos ou literalmente iguais podem (e vão) surgir. O ideal quando isso ocorre é unir esses enunciados. Se dois enunciados esperam a mesma solução, não tem razão para o mesmo aluno criar duas soluções com poucas diferenças ou tecnicamente iguais.
+
+No caso em que os enunciados se complementam, mas podem ser satisfeitos por uma mesma solução, eles ficam juntos no arquivo `task.md`, em seções diferentes, cada uma com título contendo o professor, a disciplina e o ano relativos àquela tarefa. Esse tipo de junção aumenta o tamanho ou a complexidade da solução porque mais requisitos vão sendo empilhados, por isso deve ser usada na medida do razoável.
+
+```md
+# Tarefa
+
+## Professor - Disciplina - Ano
+
+Enunciado...
+
+## Outro Professor - Outra Disciplina - Outro Ano*
+
+Outro enunciado...
+```
+
+No caso de enunciados basicamente iguais, diferindo apenas em ano, disciplina ou professor, as informações da primeira aparição ficam no título e as demais vem logo abaixo, em itálico. Geralmente isso acontece quando o professor reutiliza o mesmo material de ensino para vários anos ou usa material de outro professor.
+
+```md
+# Tarefa
+
+## Professor - Disciplina - Ano
+
+*Professor - Disciplina - Outro Ano*
+
+*Outro Professor - Disciplina - Outro Ano*
+
+Enunciado...
+```
+
+## Comentários de aluno
+
+Tanto no diário quanto em enunciados de tarefa, o aluno que está documentando pode deixar um comentário, mas deve deixar claro que é um comentário e incluir o seu nome.
+
+```md
+> Meu comentário aqui.
+>
+> *-- Seruna*
+```
 
 ## Commits
 
