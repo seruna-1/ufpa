@@ -1,5 +1,13 @@
 ## Sistema de rastreamento de veículos
 
+**Professor:** Josivan Reis.
+
+**Disciplina:** Programação II.
+
+**Ano:** 2026.
+
+Requisitos:
+
  - Rastreador específico ou usando um smartphone.
 
  - Latitude, longitude, velocidade, nível de bateria, tempo (data e hora).
