@@ -85,7 +85,7 @@ O corpo docente atual é público, e está disponível no site da Facomp [https:
 | `flavmont` | Flávia Pessoa Monteiro |
 | `gpinto` | Gustavo Henrique Lima Pinto |
 | `jeff` | Jefferson Magalhães de Morais |
-| `josivaldo` | Josivaldo de Souza Araújo |
+| `josivd` | Josivaldo de Souza Araújo |
 | `josivan` | Josivan Rodrigues dos Reis |
 | `lidio` | Lídio Mauro Lima de Campos |
 | `mpmota` | Marcelle Pereira Mota |
