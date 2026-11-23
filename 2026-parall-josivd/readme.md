@@ -18,8 +18,8 @@ Composição da nota:
 |-|-|
 | Bronze | 10 |
 | Prata | 20 |
-| Ouro |  |
-| Diamante |  |
+| Ouro | 30 |
+| Diamante | 40 |
 
 Padrão de relatório: artigo SBC.
 
